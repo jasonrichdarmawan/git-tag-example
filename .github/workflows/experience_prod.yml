@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: do echo
-        run: echo "deploy/experience/dev"
+        run: echo "deploy/experience/prod"
