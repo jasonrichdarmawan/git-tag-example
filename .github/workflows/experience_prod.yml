@@ -1,10 +1,10 @@
-name: deploy experience to dev
+name: deploy experience to prod
 on:
   push:
     tags:
       - deploy/experience/prod/v*.*.*
 jobs:
-  echo-example:
+  doEcho:
     runs-on: ubuntu-latest
     steps:
       - name: do echo

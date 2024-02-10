@@ -4,7 +4,7 @@ on:
     tags:
       - deploy/experience/dev/v*.*.*
 jobs:
-  echo-example:
+  doEcho:
     runs-on: ubuntu-latest
     steps:
       - name: do echo
