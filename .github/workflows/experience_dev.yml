@@ -1,0 +1,11 @@
+name: deploy experience to dev
+on:
+  push:
+    tags:
+      - deploy/experience/dev/v*.*.*
+jobs:
+  echo-example:
+    runs-on: ubuntu-latest
+    steps:
+      - name: do echo
+        run: echo "deploy/experience/dev"
